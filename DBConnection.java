@@ -49,9 +49,7 @@ public class DBConnection extends AsyncTask<String, Void, String> {
 			// Log.d("url2", url2);
 			result = GET(urls[0], urls[1]);
 		} catch (Exception e) {
-
 			// TODO Auto-generated catch block
-
 			e.printStackTrace();
 
 		}
@@ -59,12 +57,7 @@ public class DBConnection extends AsyncTask<String, Void, String> {
 	}
 
 	public static String GET(String url, String json) {
-
-		// final String hostname = "http://192.168.2.110:8888/Qcuts_PHP_Local/";
-
-		// final String hostname = "http://192.168.2.100/Qcuts_remote/";
-
-		final String hostname = "http://qcutsservice.cloudapp.net/";
+		final String hostname = "enter-your-db-hostname";
 
 		HttpResponse response = null;
 		InputStream inputStream = null;
