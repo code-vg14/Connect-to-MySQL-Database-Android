@@ -1,6 +1,8 @@
 # Connect-to-MySQL-Database-Android
 Connect and fetch data from MySQL database in Android
+
 Usage:
+
 import following files in your activity
 
 DBConnection;
