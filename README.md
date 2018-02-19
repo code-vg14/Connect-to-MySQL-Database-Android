@@ -23,11 +23,12 @@ Add this code in your activity
               }
       }
       
-      @Override
-      public void JSONFeedBack(String result) {
+      @Override   //*You can get data returned from DB here*//
+      public void JSONFeedBack(String result) { 
         // TODO Auto-generated method stub
-             userDetails = new String(result);
+            String userDetails = new String(result); //*You can also declare userDetails as private variable and use it here*//
       }
 
+Call fetchData() function where you want to use the data.
 Always check for connection availability before connecting to DB. 
       
