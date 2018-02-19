@@ -29,6 +29,7 @@ Add this code in your activity
       public void JSONFeedBack(String result) { 
         // TODO Auto-generated method stub
              String userDetails = new String(result);
+      }
 
 Call fetchData() function where you want to use the data.
 Always check for connection availability before connecting to DB. 
