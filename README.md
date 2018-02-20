@@ -13,7 +13,7 @@ Add this code in your activity
       public void fetchData() {
               try {
                       /****** If json returns Array ******/			
-                      userId = 4;
+                      userId = 4; //*userId*/
                       json.put("user_id", userId);
                       url = "getuserDetailsById.json";
                       new DBConnection(this).execute(url, json.toString());
@@ -25,7 +25,7 @@ Add this code in your activity
               }
       }
       
-      @Override   //*You can get data returned from DB here*//
+      @Override   //*get data returned from DB here*//
       public void JSONFeedBack(String result) { 
         // TODO Auto-generated method stub
              String userDetails = new String(result);
