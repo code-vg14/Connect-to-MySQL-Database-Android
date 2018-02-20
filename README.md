@@ -13,7 +13,7 @@ Add this code in your activity
       public void fetchData() {
               try {
                       /****** If json returns Array ******/			
-                      userId = 4; //*userId*/
+                      userId = 4; 
                       json.put("user_id", userId);
                       url = "getuserDetailsById.json";
                       new DBConnection(this).execute(url, json.toString());
